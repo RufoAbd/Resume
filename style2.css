@@ -1,0 +1,19 @@
+.contact-icons {
+    display: flex;               /* yan-yana düzür */
+    justify-content: center;     /* ortalanır */
+    align-items: center;         /* dikeydə ortalanır */
+    gap: 40px;                   /* ikonlar arasındakı boşluq */
+    margin-top: 20px;
+}
+
+.contact-icons a img {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.contact-icons a img:hover {
+    transform: scale(1.1);      /* hover zamanı böyüsün */
+}
+body {
+  text-align: center;
+}   
